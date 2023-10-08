@@ -21,7 +21,7 @@ const pra = [
         name:'Kapha Vata Prakriti'
     },
     {
-        name:'Tridosha'
+        name:'Tridosha Prakriti'
     }
 ]
 
@@ -30,19 +30,19 @@ const BodyUI = () => {
     <>
         <div>
             <div style={{paddingTop:'100px', marginTop:'40px'}} className='text-center'>
-                <h1 style={{color:'#fff'}}>Welcome to prakirti Analysis</h1>
+                <h1 style={{color:'#fff'}}>Welcome to Prakriti Analysis</h1>
             </div>
             <div style={{marginTop:'50px'}} className='text-center'>
                 <p className='lead' style={{color:'#fff'}}>Prakriti is an inherent nature of an individual determined at the time of your birth, which can not be changed during your lifetime. Ayurveda broadly classifies human nature in two types – Mental and Physical Nature.</p>
             </div>
             <div style={{marginTop:'100px', marginBottom:'160px'}} className='text-center d-flex justify-content-center'>
                 <div style={{borderRadius:'25px',border:'2px solid black' , marginLeft:'30px', color:'#fff', backgroundColor:'#002244', width:'300px', height:'300px'}}>
-                <h4 style={{margin:'35px', padding:'20px'}}>I want to find which Prakirti am i belongs to</h4>
+                <h4 style={{margin:'35px', padding:'20px'}}>I want to find which Prakriti am i belongs to</h4>
                 <Button variant="secondary" style={{width:'150px'}} href='https://huggingface.co/spaces/Rohankumar31/Prakruti_LLM'> Check It</Button>
                 </div>
 
                 <div style={{borderRadius:'25px',border:'2px solid black' , marginLeft:'30px', color:'#fff', backgroundColor:'#002244', width:'300px', height:'300px'}}>
-                <h4 style={{margin:'35px', padding:'20px'}}>I need suggestions about Prakirti</h4>
+                <h4 style={{margin:'35px', padding:'20px'}}>I need suggestions about Prakriti</h4>
                 <Button variant="secondary" style={{width:'150px'}} href='https://huggingface.co/spaces/Rohankumar31/Prakruti_ANN'> Check It</Button>
                 </div>
                 
@@ -50,7 +50,7 @@ const BodyUI = () => {
             </div>
 
             <div className='text-center'>
-                <h1 style={{color:'#0047AB', marginBottom:'35px'}}>There are 7 types of Sharirika Prakriti</h1>
+                <h1 style={{color:'#0047AB', marginBottom:'35px'}}>There are 7 types of Prakriti</h1>
                 <ul>
                     {pra.map((i) => {
                         return (

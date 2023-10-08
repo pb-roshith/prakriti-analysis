@@ -12,7 +12,7 @@ const NavUI = () => {
   return (
     <Navbar className='fixed-top' style={{backgroundColor:'#002244'}} expand="lg">
       <Container fluid style={{color:'#fff'}}>
-        <h1>Prakirti Analysis</h1>
+        <h1>Prakriti Analysis</h1>
         
         <div style={{fontSize:'30px'}}>
         <i style={{marginLeft:'30px', cursor:'pointer'}} class="bi bi-menu-up"></i>
