@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import NavUI from './component/navUI'
+import BodyUI from './component/bodyUI';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{backgroundAttachment: 'fixed',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover', backgroundImage: `url(${'https://res.cloudinary.com/dlnrtg1q3/image/upload/v1696071245/12643219_5039684_w9tsh7.jpg'})` }}>
+      <NavUI></NavUI>
+      <BodyUI></BodyUI>
     </div>
   );
 }
